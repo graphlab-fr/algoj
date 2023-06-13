@@ -29,6 +29,10 @@ h1.title {
     display: none;
 }
 
-header {
-    background-image: url("");
+aside.menu header:before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    content: url("logo-algoJ.png");
 }
